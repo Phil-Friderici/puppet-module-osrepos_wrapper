@@ -1,0 +1,13 @@
+fixtures:
+  repositories:
+    apt:
+      repo: 'https://github.com/puppetlabs/puppetlabs-apt.git'
+      ref:  '2.2.2'
+    stdlib:
+      repo: 'https://github.com/puppetlabs/puppetlabs-stdlib.git'
+      ref:  '4.9.0'
+    swrepo:
+      repo: 'https://github.com/jwennerberg/puppet-module-swrepo.git'
+      ref:  '0.4.0'
+  symlinks:
+    osrepos_wrapper: "#{source_dir}"
