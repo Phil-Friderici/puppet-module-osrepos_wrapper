@@ -40,9 +40,9 @@ parser) and Puppet v4 on the following platforms and supports Ruby versions
  * Ubuntu 14.04
  * Ubuntu 16.04
 
-Support is directly depending on the sourced classes apt and swrepo.
-https://github.com/puppetlabs/puppetlabs-apt.git
-https://github.com/jwennerberg/puppet-module-swrepo.git
+Support is directly depending on the sourced classes apt and swrepo:
+ * https://github.com/puppetlabs/puppetlabs-apt.git
+ * https://github.com/jwennerberg/puppet-module-swrepo.git
 
 [![Build Status](https://travis-ci.org/Phil-Friderici/puppet-module-osrepos_wrapper.png?branch=master)](https://travis-ci.org/Phil-Friderici/puppet-module-osrepos_wrapper)
 
