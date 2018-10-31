@@ -1,12 +1,12 @@
 {
-  "name":         "PhilFriderici-osrepos_wrapper",
+  "name":         "kodguru-osrepos_wrapper",
   "version":      "0.1.0",
-  "author":       "Phil-Friderici",
+  "author":       "kodguru",
   "summary":      "Wrapper to choose the OS specific package repository class",
   "license":      "Apache-2.0",
-  "source":       "https://github.com/Phil-Friderici/puppet-module-osrepos_wrapper.git",
-  "project_page": "https://github.com/Phil-Friderici/puppet-module-osrepos_wrapper",
-  "issues_urk":   "https://github.com/Phil-Friderici/puppet-module-osrepos_wrapper/issues",
+  "source":       "https://github.com/kodguru/puppet-module-osrepos_wrapper.git",
+  "project_page": "https://github.com/kodguru/puppet-module-osrepos_wrapper",
+  "issues_urk":   "https://github.com/kodguru/puppet-module-osrepos_wrapper/issues",
   "tags":         ["wrapper", "Repositories", "Debian", "RedHat", "Suse", "Ubuntu"],
   "operatingsystem_support": [
     {
@@ -60,10 +60,10 @@
   "requirements": [
     {
       "name": "puppet",
-      "version_requirement": ">= 3.0.0 < 5.0.0"
+      "version_requirement": ">= 3.0.0 < 7.0.0"
     }
   ],
   "dependencies": [
-    {"name":"puppetlabs/stdlib","version_requirement":">= 4.9.0 < 6.0.0"}
+    {"name":"puppetlabs/stdlib","version_requirement":">= 4.9.0 < 5.0.0"}
   ]
 }
